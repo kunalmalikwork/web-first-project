@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: #E4FF6E;
+    overflow: hidden;
+}
+
+nav{
+    padding: 60px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+nav h2{
+    font-size: 35px;
+    font-weight: 300px;
+}
+
+nav a{
+    font-size: 22px;
+    font-weight: 500px;
+    color: #000;
+    text-decoration: none;
+}
+
+section{
+    padding: 60px 100px;
+}
+
+section .hero-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hero-text1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: 900;
+    line-height: 150px;
+}
+
+.hero-text1 .video{
+    height: 80px;
+    width: 300px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 40px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1792180320741-f7816af3af7f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+.video .play{
+    height: 100%;
+    width: 75px;
+    background-color: black;
+    border-radius: 100px;
+    border: 1.5px solid #E4FF6E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play i{
+    color: white;
+    font-size: 50px;
+}
+
+section .hero-text2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text2 h1{
+    font-size: 200px;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: 900;
+    line-height: 150px;
+}
+
+.hero-text2 p{
+    font-size: 20px;
+    width: 400px;
+    font-family: poppins;
+}
+
+section .tags{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 20px;
+}
+
+.tags .main-tag{
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    margin: 40px 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tags .main-tag:hover{
+    background-color: black;
+    border: 2px solid white;
+    color:white;
+    cursor: pointer
+}
